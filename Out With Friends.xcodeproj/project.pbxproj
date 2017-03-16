@@ -14,6 +14,12 @@
 		658E562F1E76FBEF00564ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658E562D1E76FBEF00564ECA /* LaunchScreen.storyboard */; };
 		658E563A1E76FBEF00564ECA /* Out_With_FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56391E76FBEF00564ECA /* Out_With_FriendsTests.swift */; };
 		658E56451E76FBEF00564ECA /* Out_With_FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56441E76FBEF00564ECA /* Out_With_FriendsUITests.swift */; };
+		658E56541E770BB200564ECA /* RemindFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56531E770BB200564ECA /* RemindFriendButton.swift */; };
+		658E56581E77308500564ECA /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56571E77308500564ECA /* Meal.swift */; };
+		658E565A1E77373F00564ECA /* MealTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56591E77373F00564ECA /* MealTableView.swift */; };
+		658E565E1E773D7700564ECA /* AddMealTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E565D1E773D7700564ECA /* AddMealTextView.swift */; };
+		658E56621E77478200564ECA /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658E56611E77478200564ECA /* MealViewController.swift */; };
+		65E837581E78418B00F878B7 /* MealObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E837571E78418B00F878B7 /* MealObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		658E56401E76FBEF00564ECA /* Out With FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out With FriendsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		658E56441E76FBEF00564ECA /* Out_With_FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Out_With_FriendsUITests.swift; sourceTree = "<group>"; };
 		658E56461E76FBEF00564ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658E56531E770BB200564ECA /* RemindFriendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindFriendButton.swift; sourceTree = "<group>"; };
+		658E56571E77308500564ECA /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = ../Meal.swift; sourceTree = "<group>"; };
+		658E56591E77373F00564ECA /* MealTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableView.swift; sourceTree = "<group>"; };
+		658E565D1E773D7700564ECA /* AddMealTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMealTextView.swift; path = ../AddMealTextView.swift; sourceTree = "<group>"; };
+		658E56611E77478200564ECA /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		65E837571E78418B00F878B7 /* MealObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,14 @@
 		658E56231E76FBEF00564ECA /* Out With Friends */ = {
 			isa = PBXGroup;
 			children = (
+				658E565D1E773D7700564ECA /* AddMealTextView.swift */,
 				658E56241E76FBEF00564ECA /* AppDelegate.swift */,
 				658E56261E76FBEF00564ECA /* ViewController.swift */,
+				658E56611E77478200564ECA /* MealViewController.swift */,
+				658E56591E77373F00564ECA /* MealTableView.swift */,
+				658E56571E77308500564ECA /* Meal.swift */,
+				658E56531E770BB200564ECA /* RemindFriendButton.swift */,
+				65E837571E78418B00F878B7 /* MealObject.swift */,
 				658E56281E76FBEF00564ECA /* Main.storyboard */,
 				658E562B1E76FBEF00564ECA /* Assets.xcassets */,
 				658E562D1E76FBEF00564ECA /* LaunchScreen.storyboard */,
@@ -193,6 +211,7 @@
 				TargetAttributes = {
 					658E56201E76FBEF00564ECA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9L7GY7KY69;
 						ProvisioningStyle = Automatic;
 					};
 					658E56341E76FBEF00564ECA = {
@@ -259,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658E56581E77308500564ECA /* Meal.swift in Sources */,
+				65E837581E78418B00F878B7 /* MealObject.swift in Sources */,
 				658E56271E76FBEF00564ECA /* ViewController.swift in Sources */,
+				658E565E1E773D7700564ECA /* AddMealTextView.swift in Sources */,
+				658E56621E77478200564ECA /* MealViewController.swift in Sources */,
 				658E56251E76FBEF00564ECA /* AppDelegate.swift in Sources */,
+				658E56541E770BB200564ECA /* RemindFriendButton.swift in Sources */,
+				658E565A1E77373F00564ECA /* MealTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9L7GY7KY69;
 				INFOPLIST_FILE = "Out With Friends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dreamdev.Out-With-Friends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9L7GY7KY69;
 				INFOPLIST_FILE = "Out With Friends/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dreamdev.Out-With-Friends";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +534,7 @@
 				658E564B1E76FBEF00564ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		658E564C1E76FBEF00564ECA /* Build configuration list for PBXNativeTarget "Out With FriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +543,7 @@
 				658E564E1E76FBEF00564ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		658E564F1E76FBEF00564ECA /* Build configuration list for PBXNativeTarget "Out With FriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +552,7 @@
 				658E56511E76FBEF00564ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
